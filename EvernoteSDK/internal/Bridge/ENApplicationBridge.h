@@ -28,46 +28,17 @@ extern NSString * const kEN_ApplicationBridge_InvalidRequestType;
 
 }
 
-/*!
- @function
- @abstract   (description)
- @discussion
- @param     
- @result
- */
 + (ENApplicationBridge *) newApplicationBridge;
 
-/*!
- @function
- @abstract
- @discussion
- @result     Returns YES if Evernote is installed.
- */
+
 - (BOOL) isEvernoteInstalled;
 
-/*!
- @function
- @abstract
- @discussion Returns an NSURL where the Evernote application can be downloaded from.  
- On the iPhone this will be a URL that invokes the App Store.
- @result     
- */
 - (NSURL *) evernoteDownloadURL;
 
-/*!
- @function
- @abstract
- @discussion
- @param
- */
+
 - (void) performRequest:(id<ENApplicationRequest>)request;
 
-/*!
- @function
- @abstract
- @discussion
- @param
- */
+
 - (void) performRequest:(id<ENApplicationRequest>)request withCallbackURL:(NSURL *)callbackURL;
 
 @end
