@@ -453,6 +453,7 @@
 		43741905170ADE1000D2BE51 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		43741907170ADE1700D2BE51 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		43741911170AEAFC00D2BE51 /* ENOAuthProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENOAuthProtocol.h; sourceTree = "<group>"; };
+		843DD2A0217B68E700863AEE /* EvernoteSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = EvernoteSDK.podspec; sourceTree = "<group>"; };
 		A92602BB1672B4FE00F01E63 /* evernote_logo_4c-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "evernote_logo_4c-sm.png"; sourceTree = "<group>"; };
 		A92602BD1672B6DD00F01E63 /* NSData+EvernoteSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+EvernoteSDK.h"; sourceTree = "<group>"; };
 		A92602BE1672B6DD00F01E63 /* NSData+EvernoteSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+EvernoteSDK.m"; sourceTree = "<group>"; };
@@ -676,6 +677,7 @@
 		0BB3D1A21524ED96001C4534 = {
 			isa = PBXGroup;
 			children = (
+				843DD2A0217B68E700863AEE /* EvernoteSDK.podspec */,
 				0BB3D1B21524ED96001C4534 /* EvernoteSDK */,
 				0BB3D2731524EF37001C4534 /* SampleApp-iOS */,
 				437418AE170ADCD600D2BE51 /* SampleApp-Mac */,
